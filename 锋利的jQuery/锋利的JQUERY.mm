@@ -140,14 +140,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1486557624669" ID="ID_1089970105" MODIFIED="1486557656627" POSITION="right" STYLE="bubble" TEXT="&#x8868;&#x5355;&#x7b49;&#x5e94;&#x7528;">
-<node CREATED="1487000309540" ID="ID_268567011" MODIFIED="1487000312657" TEXT="&#x8868;&#x5355;"/>
-<node CREATED="1487000312932" ID="ID_1530390792" MODIFIED="1487000314713" TEXT="&#x8868;&#x683c;"/>
-<node CREATED="1487000314981" ID="ID_286247431" MODIFIED="1487000317953" TEXT="&#x5176;&#x4ed6;"/>
-</node>
 <node CREATED="1486557463079" ID="ID_679579487" MODIFIED="1486557656627" POSITION="right" STYLE="bubble" TEXT="AJAX">
-<node CREATED="1487303868877" ID="ID_827792981" MODIFIED="1487303872467" TEXT="&#x6d4b;&#x8bd5;&#x662f;&#x5440;"/>
+<node CREATED="1487303868877" ID="ID_827792981" MODIFIED="1487313550386" TEXT="$.get(url,[data],[callback],[type])&#xa;$.post(url,[data],[callback],[type])&#xa;$(&quot;selector&quot;).load(url,[data],[callback])&#xa;$.getJSON(url,[data],[callback])&#xa;$.getScript(url,[callback])&#xa;$.ajax(url,[settings])&#xa;$.ajax({url:&quot;url&quot;,success:[settings]})">
+<node CREATED="1487313567409" ID="ID_10709532" MODIFIED="1487313577914" TEXT="eg:&#xa;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x6709;&#xa;success,error,statusError,complete&#xa;$.ajax(&quot;urlAddr&quot;,{&#xa;    success:function(data){&#xa;        console.log(arguments);&#xa;    },&#xa;    error:function(jqXHR,textStatus,err){&#xa;        console.log(arguments);&#xa;    },&#xa;    statusError:function(jqXHR,textStatus){&#xa;        console.log(&quot;statusCode: %d,statusText: %s&quot;,jqXHR.status, jqXHR.statusText);&#xa;        console.log(&quot;textStatus %s&quot;,textStatus);&#xa;    },&#xa;    statusCode:{&#xa;        &quot;403&quot;:function(jqXHR,testStatus,err){&#xa;            console.log(arguments);&#xa;        },&#xa;        &quot;400&quot;:function(){&#xa;        }&#xa;    }&#xa;})"/>
 </node>
-<node CREATED="1486557470329" ID="ID_1447530151" MODIFIED="1486557656627" POSITION="right" STYLE="bubble" TEXT="&#x63d2;&#x4ef6;"/>
+</node>
+<node CREATED="1486557470329" ID="ID_1447530151" MODIFIED="1486557656627" POSITION="right" STYLE="bubble" TEXT="&#x63d2;&#x4ef6;">
+<node CREATED="1487316407288" ID="ID_200831114" MODIFIED="1487316686091" TEXT="validation http://www.runoob.com/jquery/jquery-plugin-validate.html"/>
+</node>
 </node>
 </map>
